@@ -32,6 +32,7 @@ while True: #while loop et saaks erinevaid numbreid mugavalt testida
         rooma = roomanumbriks(number)
         print(f"{number} Rooma numbrites on: {rooma}\n")
 
+    #error management
     except ValueError as e:
         print("Viga:", e)
         print("Proovi uuesti.\n")
